@@ -1,0 +1,1 @@
+# ingressify.auth-resource
