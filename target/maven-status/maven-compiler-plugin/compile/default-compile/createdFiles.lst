@@ -1,0 +1,9 @@
+insper\ingressify\account\Account$AccountBuilder.class
+insper\ingressify\account\Account.class
+insper\ingressify\account\AccountModel.class
+insper\ingressify\account\AccountModel$AccountModelBuilder.class
+insper\ingressify\account\AccountRepository.class
+insper\ingressify\account\AccountResource.class
+insper\ingressify\account\AccountApplication.class
+insper\ingressify\account\AccountParser.class
+insper\ingressify\account\AccountService.class
