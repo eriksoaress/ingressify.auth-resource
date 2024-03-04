@@ -1,7 +1,7 @@
-C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.account-resource\src\main\java\insper\ingressify\account\AccountApplication.java
-C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.account-resource\src\main\java\insper\ingressify\account\AccountService.java
-C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.account-resource\src\main\java\insper\ingressify\account\AccountRepository.java
-C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.account-resource\src\main\java\insper\ingressify\account\AccountModel.java
-C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.account-resource\src\main\java\insper\ingressify\account\AccountParser.java
-C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.account-resource\src\main\java\insper\ingressify\account\AccountResource.java
-C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.account-resource\src\main\java\insper\ingressify\account\Account.java
+C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.auth-resource\src\main\java\insper\ingressify\auth\AuthApplication.java
+C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.auth-resource\src\main\java\insper\ingressify\auth\Token.java
+C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.auth-resource\src\main\java\insper\ingressify\auth\AuthService.java
+C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.auth-resource\src\main\java\insper\ingressify\auth\Register.java
+C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.auth-resource\src\main\java\insper\ingressify\auth\Credential.java
+C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.auth-resource\src\main\java\insper\ingressify\auth\AuthResource.java
+C:\Users\erikb\OneDrive\햞ea de Trabalho\Estudos\plat_mic_api\ingressify.auth-resource\src\main\java\insper\ingressify\auth\JwtService.java

@@ -37,9 +37,8 @@ public class AuthResource implements AuthController {
     }
 
     @Override
-    public ResponseEntity<LoginOut> authenticate(CredetalIn in) {
-        authService.authenticate(in.email(), in.password());
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'authenticate'");
+    public ResponseEntity<LoginOut> authenticate(CredentialIn in) {
+        return ResponseEntity.ok(authService.authenticate(in.email(), in.password()));
     }
+
 }

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ingressify-service
+    name: ingressify-auth
 
 eureka:
   client:
