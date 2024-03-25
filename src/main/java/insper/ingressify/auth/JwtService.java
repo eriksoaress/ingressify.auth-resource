@@ -18,13 +18,13 @@ import jakarta.annotation.PostConstruct;
 @Service
 public class JwtService {
 
-    @Value("${store.jwt.secret-key}")
+    @Value("${ingressify.jwt.secret-key}")
     private String secretKey;
 
-    @Value("${store.jwt.issuer}")
+    @Value("${ingressify.jwt.issuer}")
     private String issuer;
 
-    @Value("${store.jwt.duration}")
+    @Value("${ingressify.jwt.duration}")
     private long duration = 1l;
 
     private SecretKey key;
