@@ -1,7 +1,6 @@
 package insper.ingressify.auth;
 
 import lombok.Builder;
-import lombok.experimental.Accessors;
 
 
 @Builder
