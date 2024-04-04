@@ -1,13 +1,13 @@
-package insper.ingressify.auth;
+package jogayjoga.auth;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import insper.ingressify.account.AccountController;
-import insper.ingressify.account.AccountIn;
-import insper.ingressify.account.AccountOut;
-import insper.ingressify.account.LoginIn;
+import jogayjoga.account.AccountController;
+import jogayjoga.account.AccountIn;
+import jogayjoga.account.AccountOut;
+import jogayjoga.account.LoginIn;
 
 @Service
 public class AuthService {

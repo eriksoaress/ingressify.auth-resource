@@ -1,4 +1,4 @@
-package insper.ingressify.auth;
+package jogayjoga.auth;
 
 import lombok.Builder;
 

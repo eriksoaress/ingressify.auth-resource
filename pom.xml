@@ -8,7 +8,7 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>insper.ingressify</groupId>
+	<groupId>jogayjoga</groupId>
 	<artifactId>auth-resource</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>auth-resource</name>
@@ -22,12 +22,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>insper.ingressify</groupId>
+			<groupId>jogayjoga</groupId>
 			<artifactId>account</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>insper.ingressify</groupId>
+			<groupId>jogayjoga</groupId>
 			<artifactId>auth</artifactId>
 			<version>${project.version}</version>
 		</dependency>
