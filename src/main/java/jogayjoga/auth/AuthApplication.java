@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
-@EnableFeignClients(basePackages = {"insper.ingressify.account"})
+@EnableFeignClients(basePackages = {"jogayjoga.account"})
 @EnableDiscoveryClient
 @SpringBootApplication
 public class AuthApplication {
