@@ -10,6 +10,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 public class AuthResource implements AuthController {
+    
     @Autowired
     private AuthService authService;
 
