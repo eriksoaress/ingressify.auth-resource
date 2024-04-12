@@ -4,9 +4,9 @@ spring:
 
 springdoc:
   api-docs:
-    path: /departamentos/v3/api-docs
+    path: /auth/api-docs
   swagger-ui:
-    path: /departamentos/swagger-ui.html
+    path: /auth/swagger-ui.html
 
 management:
   endpoints:
