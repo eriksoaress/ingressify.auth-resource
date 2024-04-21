@@ -4,7 +4,7 @@ pipeline {
 
         stage('Build Interface') {
             steps {
-                build job: 'jogayjoga.auth', wait: true
+                build job: 'jogayjoga-auth', wait: true
             }
         }
 
@@ -17,7 +17,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 script {
-                    account = docker.build("jogayjoga/auth:${env.BUILD_ID}", "-f Dockerfile .")
+                    auth = docker.build("eriksoaress/auth:${env.BUILD_ID}", "-f Dockerfile .")
                 }
             }
         }
@@ -26,8 +26,8 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry('https://registry.hub.docker.com', 'dockerhub-credential') {
-                        account.push("${env.BUILD_ID}")
-                        account.push("latest")
+                        auth.push("${env.BUILD_ID}")
+                        auth.push("latest")
                     }
                 }
             }
